@@ -1,7 +1,9 @@
 try:
     import Tkinter as tk
+    # For python 2
 except ImportError:
     import tkinter as tk
+    # For python 3
 
 def init(top, gui, *args, **kwargs):
     global w, top_level, root
